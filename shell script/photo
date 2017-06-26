@@ -1,0 +1,7 @@
+#!/bin/bash
+cd
+mkdir public_html
+mv ~/trip/*.{gif,jpg,jpeg} ~/public_html
+chmod a+rx /home/jfdoe/public_html
+chmod -R a+r /home/jfdoe/public_html
+

@@ -1,0 +1,28 @@
+user time for "g++ -DRECURSION recursion.cc":
+0.35
+user time for "g++ recursion.cc":
+0.07
+user time for "g++ -O2 -DRECURSION recursion.cc":
+0.16
+user time for "g++ -O2 recursion.cc":
+0.06
+
+Q: Relative difference in timing results with repect to looping verses
+recursion for iteration:
+
+The user time of running a recursive code is significantly larger than
+the user time of running a looping code. This is because in recursive code,
+the variables in previous recursion are kept in next recursion, and keep building 
+new stack frame, and the previous variabls are substitute again and again into the 
+same program.
+However, in looping code, every iteral is keep updating variables, and the previous
+variables do not need to be substitute into the whole program again. This is the reason
+of difference in running time of looping code and recursive code. 
+
+Q: Performance difference when compiler optimization is used:
+
+When compiler optimization is used, the runing time of recursive code decreasing 
+significantly. However, the running time of looping code has only a tiny decrease.
+This is because the compiler starts to reduce the cost of running this program and 
+use tail recursion instead of the normal recursion, which cost less time.
+

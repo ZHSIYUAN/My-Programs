@@ -1,0 +1,36 @@
+#!/bin/bash
+usage  () {
+ echo "Usage: arguments are not correct"
+ exit 1
+}
+
+if [${#} -lt 2]; then
+ usage
+fi
+
+if [${#} -gt 4]; then
+ usage
+fi
+
+if ["${1}"!="-r" -o "${1}"!="-R"]; then
+ if [${#} -eq 3 ]; then
+ OUTPUT=$(mktemp ${3}/output.ABC123)
+  find ${3} -maxdepth 0 -a -type f -a -name "*.{h,C,cpp,cc}" | grep ${1} | sed -E 's|${1}|${2}|g' > ${OUTPUT}
+ else
+ OUTPUT=$(mktemp ./output.ABC123)
+  find . -maxdepth 0 -a -type f -a -name "*.{h,C,cpp,cc}" | grep ${1} | sed -E 's|${1}|${2}|g' > ${OUTPUT}
+ fi
+else
+ if [${#} -eq 4]; then
+ OUTPUT=$(mktemp ${4}/output.ABC123)
+  find ${4} -type f -name "*.{h,C,cpp,cc}" | grep ${2} | sed -E 's|${2}|${3}|g' > ${OUTPUT}
+  else
+ OUTPUT=$(mktemp ./output.ABC123)
+  find . -type f -name "*{h,C,cpp,cc}" | grep ${2} | sed -E 's|${2}|${3}|g' > ${OUTPUT}
+ fi
+fi
+
+sort ${OUTPUT}
+
+rm -r ${OUTPUT}
+

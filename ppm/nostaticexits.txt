@@ -1,0 +1,24 @@
+user time for "g++ nostaticexits.cc" (transformed program):
+7.81s
+user time for "g++ nostaticexits.cc" (given program):
+4.01s
+user time for "g++ -O2 nostaticexits.cc" (transformed program):
+1.62s
+user time for "g++ -O2 nostaticexits.cc" (given program):
+1.48s
+
+Q: Relative difference in timing results with original and transformed program:
+
+The run time of transformed program is significantly longer than original
+program. This is because "EXIT" expression exits the loop immediately and prints
+out characters in original program. However, there is no exit spot in transformed
+program, and the processor must complete the whole loop in order to continue running.
+In addition, the flag value accounts for spaces in stacks and reading in flag value
+and compare it with integers is also a time cosuming progress.
+
+Q: Performance difference when compiler optimization is used:
+
+The run tiem of transformed program and original program both reduce significantl.
+However, the run time of transformed program decreases the most and has almost the
+same time cosuming as original program.
+

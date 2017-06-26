@@ -1,0 +1,176 @@
+For tests of this question
+I build a program to input some char to a inputfile :
+
+The program is here:
+
+---------------------------------------------------------------------
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+ ofstream outfile("myinput");
+ unsigned char utf8bytes[] = {
+  0xe0,
+  0x80,
+  ....
+ };
+ outfile.write((char *)utf8bytes, sizeof(utf8bytes)),
+}
+
+---------------------------------------------------------------------
+
+test1:
+
+INPUT:
+0x8,
+0x9,
+0xa
+
+This input is to test whether my program could translate a small UTF8char correctly, and when program print, my program should able to add a "0" before hex value of UTF8char.
+
+EXPECT OUTPUT:
+0x08 : valid value 0x8
+0x09 : valid calue 0x9
+0x0a : valid value 0xa
+
+------------------------------------------------------------------------
+test2:
+
+INUT:
+
+0xe0,
+0x8f,
+0xa0
+
+This input is to test whether my program could read in correct bytes of a UTF8char and translate it into unicode char, then decide if unicode is in a correct range
+
+EXPECT OUTPUT:
+
+0xe08fa0 : invalid range
+
+------------------------------------------------------------------------
+test3:
+
+INPUT:
+
+0xe9,
+0x80,
+0x80,
+0x5f
+
+This input is to test whether my program can continue to read in correct bytes of UTF8chars and translate them into correct unicode form.
+
+EXPECT OUTPUT:
+
+0xe98080 : valid value 0x9000
+0x5f : valid value 0x5f
+
+------------------------------------------------------------------------
+test4:
+
+INPUT:
+
+0xe9,
+0x80,
+0x80,
+0xd3
+
+This program is to test whether my program could produce the correct error message "invalid missing bytes", because UTF8char start with 0xd3 should contain 2 bytes, but I only input 1 byte.
+
+EXPECT OUTPUT:
+
+0xe98080 : valid value 0x9000
+0xd3 : invalid missing bytes
+
+-----------------------------------------------------------------------
+test5:
+
+COMMAND LINE ARGUMENTS:
+./utf8ch myinput1 myinput2
+
+This command line arguments is to test whether my program could ouput correct error message when there are mutiple input files
+
+EXPECT OUTPUT:
+
+wrong number of arguments
+Usage: ./utf8ch [ infile-file ]
+
+-----------------------------------------------------------------------
+test6:
+
+COMMAND LINE ARGUMENTS:
+
+./utf8ch doesnotexit
+
+This command argument is to test whether my program could produce correct erro message when it could not open a file that does not exit
+
+EXPECT OUTPUT:
+
+could not open input file
+Usage: ./utf8ch [ infile-file ]
+
+----------------------------------------------------------------------
+test7:
+
+NO INPUT FILE:
+./urftch
+
+This test is to test whether my program could read from standard input cin if there is no input file
+
+EXPECT:
+If I could insert bytes from keyboard, then I pass this test
+
+---------------------------------------------------------------------
+test8:
+
+INPUT:
+
+0xe0,
+0xef
+
+In 0xe0ef, "ef" is a incorrect pattern for second byte if we represent it in binary. Therefore, this input is to test whether could produce error message "invalid padding" and stop read when it has already read in two bytes. because in general, a UTF8char start with "e0" always take 3 bytes
+
+EXPECT OUTPUT:
+
+0xe0ef : invalid padding
+
+-------------------------------------------------------------------
+test9:
+
+INPUT:
+0xe0,
+0x80,
+0x80,
+0xd7,
+0x81,
+0x24
+
+This input is to test whether my program could read in a bunch of UTF8char with the correct number of bytes
+
+EXPECT OUTPUT:
+
+0xe08080 : invalid range
+0xd781 : valid value 0x5c1
+0x24 : valid value 0x24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
