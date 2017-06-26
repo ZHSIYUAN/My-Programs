@@ -1,0 +1,32 @@
+// cs241 A5P8 
+
+int binsearch(int *array, int size, int key) {
+    int L = 0;
+    int R = 0;
+    int index = 0;
+    int m = 0;
+    int Am = 0;
+    index = 0 - 1;
+    R = size - 1;
+    while (L <= R) {
+        m = (R + L) / 2;
+        Am = *(array + m);
+        if (Am < key) {
+            L = m + 1;
+        } else {}
+        if (Am > key) {
+            R = m - 1;
+        } else {}
+        if (Am == key) {
+            index = m;
+            L = R + 1;
+        } else {}
+    }
+    return index;
+}
+
+//int wain(int size, int key){
+// int *a = NULL;
+// return binsearch(a, size, key);
+//}
+

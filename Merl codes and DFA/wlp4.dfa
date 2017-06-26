@@ -1,0 +1,659 @@
+80
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+(
+)
+{
+}
+=
+!
+<
+>
++
+-
+*
+/
+%
+,
+;
+[
+]
+&
+8
+start
+ID
+invalid
+number
+single
+A1
+A2
+A3
+start
+5
+ID
+number
+single
+A1
+A2
+560
+start 0 single
+start 1 number
+start 2 number
+start 3 number
+start 4 number
+start 5 number
+start 6 number
+start 7 number
+start 8 number
+start 9 number
+start a ID
+start b ID
+start c ID
+start d ID
+start e ID
+start f ID
+start g ID
+start h ID
+start i ID
+start j ID
+start k ID
+start l ID
+start m ID
+start n ID
+start o ID
+start p ID
+start q ID
+start r ID
+start s ID
+start t ID
+start u ID
+start v ID
+start w ID
+start x ID
+start y ID
+start z ID
+start A ID
+start B ID
+start C ID
+start D ID
+start E ID
+start F ID
+start G ID
+start H ID
+start I ID
+start J ID
+start K ID
+start L ID
+start M ID
+start N ID
+start O ID
+start P ID
+start Q ID
+start R ID
+start S ID
+start T ID
+start U ID
+start V ID
+start W ID
+start X ID
+start Y ID
+start Z ID
+start ( single
+start ) single
+start { single
+start } single
+start = A1
+start ! A3
+start < A1
+start > A1
+start + single
+start - single
+start * single
+start / single
+start % single
+start , single
+start ; single
+start [ single
+start ] single
+start & single
+ID 0 ID
+ID 1 ID
+ID 2 ID
+ID 3 ID
+ID 4 ID
+ID 5 ID
+ID 6 ID
+ID 7 ID
+ID 8 ID
+ID 9 ID
+ID a ID
+ID b ID
+ID c ID
+ID d ID
+ID e ID
+ID f ID
+ID g ID
+ID h ID
+ID i ID
+ID j ID
+ID k ID
+ID l ID
+ID m ID
+ID n ID
+ID o ID
+ID p ID
+ID q ID
+ID r ID
+ID s ID
+ID t ID
+ID u ID
+ID v ID
+ID w ID
+ID x ID
+ID y ID
+ID z ID
+ID A ID
+ID B ID
+ID C ID
+ID D ID
+ID E ID
+ID F ID
+ID G ID
+ID H ID
+ID I ID
+ID J ID
+ID K ID
+ID L ID
+ID M ID
+ID N ID
+ID O ID
+ID P ID
+ID Q ID
+ID R ID
+ID S ID
+ID T ID
+ID U ID
+ID V ID
+ID W ID
+ID X ID
+ID Y ID
+ID Z ID
+ID ( invalid
+ID ) invalid
+ID { invalid
+ID } invalid
+ID = invalid
+ID ! invalid
+ID < invalid
+ID > invalid
+ID + invalid
+ID - invalid
+ID * invalid
+ID / invalid
+ID % invalid
+ID , invalid
+ID ; invalid
+ID [ invalid
+ID ] invalid
+ID & invalid
+number 0 number
+number 1 number
+number 2 number
+number 3 number
+number 4 number
+number 5 number
+number 6 number
+number 7 number
+number 8 number
+number 9 number
+number a invalid
+number b invalid
+number c invalid
+number d invalid
+number e invalid
+number f invalid
+number g invalid
+number h invalid
+number i invalid
+number j invalid
+number k invalid
+number l invalid
+number m invalid
+number n invalid
+number o invalid
+number p invalid
+number q invalid
+number r invalid
+number s invalid
+number t invalid
+number u invalid
+number v invalid
+number w invalid
+number x invalid
+number y invalid
+number z invalid
+number A invalid
+number B invalid
+number C invalid
+number D invalid
+number E invalid
+number F invalid
+number G invalid
+number H invalid
+number I invalid
+number J invalid
+number K invalid
+number L invalid
+number M invalid
+number N invalid
+number O invalid
+number P invalid
+number Q invalid
+number R invalid
+number S invalid
+number T invalid
+number U invalid
+number V invalid
+number W invalid
+number X invalid
+number Y invalid
+number Z invalid
+number ( invalid
+number ) invalid
+number { invalid
+number } invalid
+number = invalid
+number ! invalid
+number < invalid
+number > invalid
+number + invalid
+number - invalid
+number * invalid
+number / invalid
+number % invalid
+number , invalid
+number ; invalid
+number [ invalid
+number ] invalid
+number & invalid
+single 0 invalid
+single 1 invalid
+single 2 invalid
+single 3 invalid
+single 4 invalid
+single 5 invalid
+single 6 invalid
+single 7 invalid
+single 8 invalid
+single 9 invalid
+single a invalid
+single b invalid
+single c invalid
+single d invalid
+single e invalid
+single f invalid
+single g invalid
+single h invalid
+single i invalid
+single j invalid
+single k invalid
+single l invalid
+single m invalid
+single n invalid
+single o invalid
+single p invalid
+single q invalid
+single r invalid
+single s invalid
+single t invalid
+single u invalid
+single v invalid
+single w invalid
+single x invalid
+single y invalid
+single z invalid
+single A invalid
+single B invalid
+single C invalid
+single D invalid
+single E invalid
+single F invalid
+single G invalid
+single H invalid
+single I invalid
+single J invalid
+single K invalid
+single L invalid
+single M invalid
+single N invalid
+single O invalid
+single P invalid
+single Q invalid
+single R invalid
+single S invalid
+single T invalid
+single U invalid
+single V invalid
+single W invalid
+single X invalid
+single Y invalid
+single Z invalid
+single ( invalid
+single ) invalid
+single { invalid
+single } invalid
+single = invalid
+single ! invalid
+single < invalid
+single > invalid
+single + invalid
+single - invalid
+single * invalid
+single / invalid
+single % invalid
+single , invalid
+single ; invalid
+single [ invalid
+single ] invalid
+single & invalid
+A1 0 invalid
+A1 1 invalid
+A1 2 invalid
+A1 3 invalid
+A1 4 invalid
+A1 5 invalid
+A1 6 invalid
+A1 7 invalid
+A1 8 invalid
+A1 9 invalid
+A1 a invalid
+A1 b invalid
+A1 c invalid
+A1 d invalid
+A1 e invalid
+A1 f invalid
+A1 g invalid
+A1 h invalid
+A1 i invalid
+A1 j invalid
+A1 k invalid
+A1 l invalid
+A1 m invalid
+A1 n invalid
+A1 o invalid
+A1 p invalid
+A1 q invalid
+A1 r invalid
+A1 s invalid
+A1 t invalid
+A1 u invalid
+A1 v invalid
+A1 w invalid
+A1 x invalid
+A1 y invalid
+A1 z invalid
+A1 A invalid
+A1 B invalid
+A1 C invalid
+A1 D invalid
+A1 E invalid
+A1 F invalid
+A1 G invalid
+A1 H invalid
+A1 I invalid
+A1 J invalid
+A1 K invalid
+A1 L invalid
+A1 M invalid
+A1 N invalid
+A1 O invalid
+A1 P invalid
+A1 Q invalid
+A1 R invalid
+A1 S invalid
+A1 T invalid
+A1 U invalid
+A1 V invalid
+A1 W invalid
+A1 X invalid
+A1 Y invalid
+A1 Z invalid
+A1 ( invalid
+A1 ) invalid
+A1 { invalid
+A1 } invalid
+A1 = A2
+A1 ! invalid
+A1 < invalid
+A1 > invalid
+A1 + invalid
+A1 - invalid
+A1 * invalid
+A1 / invalid
+A1 % invalid
+A1 , invalid
+A1 ; invalid
+A1 [ invalid
+A1 ] invalid
+A1 & invalid
+A2 0 invalid
+A2 1 invalid
+A2 2 invalid
+A2 3 invalid
+A2 4 invalid
+A2 5 invalid
+A2 6 invalid
+A2 7 invalid
+A2 8 invalid
+A2 9 invalid
+A2 a invalid
+A2 b invalid
+A2 c invalid
+A2 d invalid
+A2 e invalid
+A2 f invalid
+A2 g invalid
+A2 h invalid
+A2 i invalid
+A2 j invalid
+A2 k invalid
+A2 l invalid
+A2 m invalid
+A2 n invalid
+A2 o invalid
+A2 p invalid
+A2 q invalid
+A2 r invalid
+A2 s invalid
+A2 t invalid
+A2 u invalid
+A2 v invalid
+A2 w invalid
+A2 x invalid
+A2 y invalid
+A2 z invalid
+A2 A invalid
+A2 B invalid
+A2 C invalid
+A2 D invalid
+A2 E invalid
+A2 F invalid
+A2 G invalid
+A2 H invalid
+A2 I invalid
+A2 J invalid
+A2 K invalid
+A2 L invalid
+A2 M invalid
+A2 N invalid
+A2 O invalid
+A2 P invalid
+A2 Q invalid
+A2 R invalid
+A2 S invalid
+A2 T invalid
+A2 U invalid
+A2 V invalid
+A2 W invalid
+A2 X invalid
+A2 Y invalid
+A2 Z invalid
+A2 ( invalid
+A2 ) invalid
+A2 { invalid
+A2 } invalid
+A2 = invalid
+A2 ! invalid
+A2 < invalid
+A2 > invalid
+A2 + invalid
+A2 - invalid
+A2 * invalid
+A2 / invalid
+A2 % invalid
+A2 , invalid
+A2 ; invalid
+A2 [ invalid
+A2 ] invalid
+A2 & invalid
+A3 0 invalid
+A3 1 invalid
+A3 2 invalid
+A3 3 invalid
+A3 4 invalid
+A3 5 invalid
+A3 6 invalid
+A3 7 invalid
+A3 8 invalid
+A3 9 invalid
+A3 a invalid
+A3 b invalid
+A3 c invalid
+A3 d invalid
+A3 e invalid
+A3 f invalid
+A3 g invalid
+A3 h invalid
+A3 i invalid
+A3 j invalid
+A3 k invalid
+A3 l invalid
+A3 m invalid
+A3 n invalid
+A3 o invalid
+A3 p invalid
+A3 q invalid
+A3 r invalid
+A3 s invalid
+A3 t invalid
+A3 u invalid
+A3 v invalid
+A3 w invalid
+A3 x invalid
+A3 y invalid
+A3 z invalid
+A3 A invalid
+A3 B invalid
+A3 C invalid
+A3 D invalid
+A3 E invalid
+A3 F invalid
+A3 G invalid
+A3 H invalid
+A3 I invalid
+A3 J invalid
+A3 K invalid
+A3 L invalid
+A3 M invalid
+A3 N invalid
+A3 O invalid
+A3 P invalid
+A3 Q invalid
+A3 R invalid
+A3 S invalid
+A3 T invalid
+A3 U invalid
+A3 V invalid
+A3 W invalid
+A3 X invalid
+A3 Y invalid
+A3 Z invalid
+A3 ( invalid
+A3 ) invalid
+A3 { invalid
+A3 } invalid
+A3 = A2
+A3 ! invalid
+A3 < invalid
+A3 > invalid
+A3 + invalid
+A3 - invalid
+A3 * invalid
+A3 / invalid
+A3 % invalid
+A3 , invalid
+A3 ; invalid
+A3 [ invalid
+A3 ] invalid
+A3 & invalid
+

@@ -1,0 +1,13 @@
+; compare if $1 < $2
+.word 0x0022202A ; slt $4, $1, $2
+; if true, skip next 2 instruction
+.word 0x14800002 ; bne $4, $0, 2
+; copy $2 value into $3
+.word 0x00401820 ; add $3, $2, $0
+; return to OS
+.word 0x03E00008 ; jr $31
+; copy $1 value into $3
+.word 0x00201820 ; add $3, $1, $0
+; return to OS
+.word 0x03E00008 ; jr $31
+
