@@ -1,0 +1,51 @@
+4
+a
+b
+c
+d
+8
+start
+others
+hasa
+ab
+abc
+abca
+abcab
+abcabd
+start
+1
+abcabd
+32
+start a hasa
+start b others
+start c others
+start d others
+others a hasa
+others b others
+others c others
+others d others
+hasa a hasa
+hasa b ab
+hasa c others
+hasa d others
+ab a hasa
+ab b others
+ab c abc
+ab d others
+abc a hasa
+abc b others
+abc c others
+abc d others
+abca a hasa
+abca b abcab
+abca c others
+abca d others
+abcab a hasa
+abcab b others
+abcab c others
+abcab d abcabd
+abcabd a abcabd
+abcabd b abcabd
+abcabd c abcabd
+abcabd d abcabd
+

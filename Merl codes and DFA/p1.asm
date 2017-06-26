@@ -1,0 +1,55 @@
+.word 0x10000002
+.word 0xd4 ; length of whole program
+.word 0x64 ; end of header total length 100
+.word 0x1814 ; strat of body m1.merl
+.word 0x5c ; use "abc"
+.word 0xafdffffc
+.word 0xf814
+.word 0x58 ; use "def"
+.word 0x8fff0000
+.word 0x8fff0000
+.word 0x8fff0000
+.word 0x3dff022
+.word 0x600009
+.word 0xf814
+.word 0x58 ; use "def"
+.word 0x8fff0000
+.word 0x8fff0000
+.word 0x8fff0000
+.word 0x3dff020
+.word 0x8fdffffc
+.word 0x3e00008
+.word 0x4 ; end of m1.merl
+.word 0x60 ; start of m2.merl
+.word 0x3e00008
+.word 0x54 ; end of m2.merl  use of "ghi"
+.word 0x01 ; start of relocation table
+.word 0x1c 
+.word 0x01 ; 2nd relocation
+.word 0x10
+.word 0x01 ; 3rd relocation
+.word 0x38
+.word 0x01 ; 4th relocation
+.word 0x58
+.word 0x01 ; 5th relocation
+.word 0x60
+.word 0x05 ; start of ESD entry
+.word 0x54
+.word 0x3
+.word 0x67 ; 'g'
+.word 0x68 ; 'h'
+.word 0x69 ; 'i'
+.word 0x05 ; 2ne in ESD
+.word 0x58
+.word 0x3
+.word 0x64 ; 'd'
+.word 0x65 ; 'e'
+.word 0x66 ; 'f'
+.word 0x05 ; 3rd in ESD
+.word 0x5c 
+.word 0x3
+.word 0x61 ; 'a'
+.word 0x62 ; 'b'
+.word 0x63 ; 'c'
+
+

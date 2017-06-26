@@ -1,0 +1,224 @@
+11
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+-
+17
+start
+zero
+negsign
+invalid
+A1
+A2
+A3
+A4
+A5
+A6
+valid
+A7
+A8
+A9
+A10
+A11
+A12
+start 
+14
+zero
+A1
+A2
+A3
+A4
+A5
+A6
+valid
+A7
+A8
+A9
+A10
+A11
+A12
+176
+start - negsign
+start 0 zero
+start 1 A1
+start 2 A2
+start 3 A2
+start 4 A2
+start 5 A2
+start 6 A2
+start 7 A2
+start 8 A2
+start 9 A2
+zero - invalid
+zero 0 invalid
+zero 1 invalid
+zero 2 invalid
+zero 3 invalid
+zero 4 invalid
+zero 5 invalid
+zero 6 invalid
+zero 7 invalid
+zero 8 invalid
+zero 9 invalid
+A1 - invalid
+A1 0 A5
+A1 1 A4
+A1 2 A6
+A1 3 A3
+A1 4 A3
+A1 5 A3
+A1 6 A3
+A1 7 A3
+A1 8 A3
+A1 9 A3
+A2 - invalid
+A2 0 A3
+A2 1 A3
+A2 2 A3
+A2 3 A3
+A2 4 A3
+A2 5 A3
+A2 6 A3
+A2 7 A3
+A2 8 A3
+A2 9 A3
+A3 - invalid
+A3 0 invalid
+A3 1 invalid
+A3 2 invalid
+A3 3 invalid
+A3 4 invalid
+A3 5 invalid
+A3 6 invalid
+A3 7 invalid
+A3 8 invalid
+A3 9 invalid
+A4 - invalid
+A4 0 valid
+A4 1 valid
+A4 2 valid
+A4 3 valid
+A4 4 valid
+A4 5 valid
+A4 6 valid
+A4 7 valid
+A4 8 valid
+A4 9 valid
+A5 - invalid
+A5 0 valid
+A5 1 valid
+A5 2 valid
+A5 3 valid
+A5 4 valid
+A5 5 valid
+A5 6 valid
+A5 7 valid
+A5 8 valid
+A5 9 valid
+A6 - invalid
+A6 0 valid
+A6 1 valid
+A6 2 valid
+A6 3 valid
+A6 4 valid
+A6 5 valid
+A6 6 valid
+A6 7 valid
+A6 8 invalid
+A6 9 invalid
+valid - invalid
+valid 0 invalid
+valid 1 invalid
+valid 2 invalid
+valid 3 invalid
+valid 4 invalid
+valid 5 invalid
+valid 6 invalid
+valid 7 invalid
+valid 8 invalid
+valid 9 invalid
+negsign - invalid
+negsign 0 invalid
+negsign 1 A7
+negsign 2 A8
+negsign 3 A8
+negsign 4 A8
+negsign 5 A8
+negsign 6 A8
+negsign 7 A8
+negsign 8 A8
+negsign 9 A8
+A7 - invalid
+A7 0 A10
+A7 1 A11
+A7 2 A12
+A7 3 A9
+A7 4 A9
+A7 5 A9
+A7 6 A9
+A7 7 A9
+A7 8 A9
+A7 9 A9
+A8 - invalid
+A8 0 A9
+A8 1 A9
+A8 2 A9
+A8 3 A9
+A8 4 A9
+A8 5 A9
+A8 6 A9
+A8 7 A9
+A8 8 A9
+A8 9 A9
+A9 - invalid
+A9 0 invalid
+A9 1 invalid
+A9 2 invalid
+A9 3 invalid
+A9 4 invalid
+A9 5 invalid
+A9 6 invalid
+A9 7 invalid
+A9 8 invalid
+A9 9 invalid
+A10 - invalid
+A10 0 valid
+A10 1 valid
+A10 2 valid
+A10 3 valid
+A10 4 valid
+A10 5 valid
+A10 6 valid
+A10 7 valid
+A10 8 valid
+A10 9 valid
+A11 - invalid
+A11 0 valid
+A11 1 valid
+A11 2 valid
+A11 3 valid
+A11 4 valid
+A11 5 valid
+A11 6 valid
+A11 7 valid
+A11 8 valid
+A11 9 valid
+A12 - invalid
+A12 0 valid
+A12 1 valid
+A12 2 valid
+A12 3 valid
+A12 4 valid
+A12 5 valid
+A12 6 valid
+A12 7 valid
+A12 8 valid
+A12 9 invalid
+

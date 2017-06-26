@@ -1,0 +1,41 @@
+4
+cat
+dog
+iguana
+mouse
+6
+start
+noal
+hasc
+hasc_d
+hasc_d_i
+hasc_d_i_m
+start
+1
+hasc_d_i_m
+24
+start cat hasc
+start dog noal
+start iguana noal
+start mouse noal
+noal cat hasc
+noal dog noal
+noal iguana noal
+noal mouse noal
+hasc cat hasc
+hasc dog hasc_d
+hasc iguana hasc
+hasc mouse hasc
+hasc_d cat hasc_d
+hasc_d dog hasc_d
+hasc_d iguana hasc_d_i
+hasc_d mouse hasc_d
+hasc_d_i cat hasc_d_i
+hasc_d_i dog hasc_d_i
+hasc_d_i iguana hasc_d_i
+hasc_d_i mouse hasc_d_i_m
+hasc_d_i_m cat hasc_d_i_m
+hasc_d_i_m dog hasc_d_i_m
+hasc_d_i_m iguana hasc_d_i_m
+hasc_d_i_m mouse hasc_d_i_m
+
