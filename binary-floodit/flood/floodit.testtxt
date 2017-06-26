@@ -1,0 +1,81 @@
+TEST:
+---------------------------------------------------------------------------
+test1:
+
+purpose : test the correctness of command line arguments
+
+input: ./floodit -badinput 3  or ./floodit -moves -1 -size 0
+
+expect output: a long line of usage message about command line argument
+               "Usage : ....."
+
+explination: this test is to figure out whether my program could 
+             determine what is the correct option 
+
+--------------------------------------------------------------------------
+
+test2:
+
+purpose : test the default build up of the matrix
+
+input : ./floodit
+
+expect output: a 10 * 10 matrix with random number from (0 - 4), and 
+               a "20 moves left" below it
+
+explination: This test is to figure out whether my program could 
+             set the correect default matrix and moves if there is
+             no specific command line arguments
+
+
+-------------------------------------------------------------------------
+
+test3
+
+purpose : test whether my program could determine the correct input
+
+input:  ./floodit
+        badinput
+        hahaha
+
+expect output : my program should output "Invalid move" in the screen
+                and wait for another correct input
+
+explination: this test is to figure out whether my program could
+             output error message if there is no valid input
+
+------------------------------------------------------------------------
+
+test4
+
+purpose : test my program to see if it could behave correctly
+
+input: any valid inputs until the game is end (won or lost)
+
+expect output: every time I input a value, program should 
+               produce a matrix with the cells in top-left
+               changed to the input value, and produces how many
+               moves left at each time. In addition, if there is 
+               no moves left but the matrix is still not complete,
+               output "Lost". If the matrix has been completed before
+               I run out of my moves, program should output "Won"
+               and terminate. If there is no input and matrix is not
+               completed yet, produce nothing and terminate the program.
+
+explination: This test is to figure out whethre my program could work
+             properly if I only input valid inputs.
+
+------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

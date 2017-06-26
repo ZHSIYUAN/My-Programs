@@ -1,0 +1,35 @@
+user time for "g++ -DDYN new.cc" : 4.70s
+
+user time for "g++ new.cc" : 2.00s
+
+user time for "g++ -O2 -DDYN new.cc" : 4.36s
+
+user time for "g++ -O2 new.cc" : 0.12s
+
+
+Q1:RELATIVE DIFFERENCE IN TIMING RESULTS WITH REPECT TO STACK AND DYNAMIC ALLOCATION
+
+The program compiled with "-DDYN" is significantly slower than the nomal compiled program. 
+This is because A program using stack cost much less than a program use dynamic allocate if they do the same thing. 
+This is because the program could store and access the variable from memory directly in stack, it do not need to access the heap everytime and its really time costing. 
+
+
+Q2: PERFORMANCE DIFFERENCE WHEN COMPILER OPTIMIZATION IS USED
+When I use the compiler optimization to compile new.cc, both
+user time of new.cc using dynamic allocation and stack allocation both
+decreased. However, the compiler optimization affacts more on the
+program which uses stack allocation, and decrease the user time more than 
+1s. Compiler optimization only decreases 0.34s in user time of program
+which uses dynamic allocation.
+
+Q3: USE OF 0 INSTEAD OF NULL TO INITIALIZE A POINTER
+In C++, NULL is defined exactly as 0, they are the same value so it is okay to use 0 instead of NULL, and we could also avoid macros.
+
+Q4:
+delete with an address of 0 does not produce an error is because 0 is equilivent to NULL(no address). Delete a address of 0 is the same delete nothing, so it will not produce any error here.
+
+
+
+
+
+
